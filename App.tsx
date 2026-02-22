@@ -11,6 +11,7 @@ const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
 const Services = lazy(() => import('./pages/Services'));
 const Contact = lazy(() => import('./pages/Contact'));
+const ProjectDetail = lazy(() => import('./pages/ProjectDetail'));
 
 const PageLoader = () => (
   <div className="fixed inset-0 flex items-center justify-center bg-[#050505] z-50">
@@ -39,6 +40,7 @@ const AppContent: React.FC = () => {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/project/:id" element={<ProjectDetail />} />
           </Routes>
         </Suspense>
       </main>

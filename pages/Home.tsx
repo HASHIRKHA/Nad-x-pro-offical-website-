@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Zap, Bot, Code, Globe as GlobeIcon, Users, Quote, Star, ExternalLink, Filter } from 'lucide-react';
+import { ArrowRight, Zap, Bot, Code, Globe as GlobeIcon, Users, Quote, Star, ExternalLink } from 'lucide-react';
 import Globe from '../components/Globe';
+import { portfolioProjects } from '../data/projects';
 
 const Home: React.FC = () => {
   const revealRefs = useRef<(HTMLElement | null)[]>([]);
@@ -58,57 +59,6 @@ const Home: React.FC = () => {
       text: "Precision software meets visionary leadership. Working with the Nad X team felt like having a glimpse into the future of enterprise.",
       avatar: "https://i.pravatar.cc/150?u=michael",
       gradient: "from-green-500/20 to-teal-500/20"
-    }
-  ];
-
-  const portfolioProjects = [
-    {
-      id: 1,
-      title: "Nexus AI Engine",
-      category: "AI & Automation",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1200",
-      desc: "Custom LLM integration for enterprise automation.",
-      accent: "cyan"
-    },
-    {
-      id: 2,
-      title: "Vanguard Fintech",
-      category: "Software Dev",
-      image: "https://images.unsplash.com/photo-1551288049-bbbda5366391?auto=format&fit=crop&q=80&w=1200",
-      desc: "High-performance banking infrastructure built for scale.",
-      accent: "purple"
-    },
-    {
-      id: 3,
-      title: "Aether Identity",
-      category: "Creative Design",
-      image: "https://images.unsplash.com/photo-1634942537034-2531766767d1?auto=format&fit=crop&q=80&w=1200",
-      desc: "Visual storytelling for the next generation of spatial computing.",
-      accent: "pink"
-    },
-    {
-      id: 4,
-      title: "Growth Surge 2.0",
-      category: "Marketing",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200",
-      desc: "Global performance marketing campaign with 300% ROI.",
-      accent: "yellow"
-    },
-    {
-      id: 5,
-      title: "Quantum Workflow",
-      category: "AI & Automation",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200",
-      desc: "AI-driven supply chain optimization platform.",
-      accent: "blue"
-    },
-    {
-      id: 6,
-      title: "Stellar Commerce",
-      category: "Software Dev",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1200",
-      desc: "A futuristic headless commerce engine.",
-      accent: "orange"
     }
   ];
 
@@ -411,9 +361,9 @@ const Home: React.FC = () => {
                   </p>
                   
                   <div className="flex items-center space-x-4 transition-all duration-700 translate-y-10 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                    <button className="flex-1 py-4 bg-white text-black font-black rounded-2xl flex items-center justify-center hover:bg-cyan-400 transition-colors group/btn">
+                    <Link to={`/project/${project.id}`} className="flex-1 py-4 bg-white text-black font-black rounded-2xl flex items-center justify-center hover:bg-cyan-400 transition-colors group/btn">
                       View Project <ExternalLink className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
-                    </button>
+                    </Link>
                     <button className="w-14 h-14 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl flex items-center justify-center hover:bg-white hover:text-black transition-all">
                       <Star className="w-5 h-5 fill-current" />
                     </button>
