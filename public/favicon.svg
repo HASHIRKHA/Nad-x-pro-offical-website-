@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="NAD X PRO favicon">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="54" fill="url(#bg)"/>
+  <rect x="8" y="8" width="240" height="240" rx="54" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="3"/>
+  <g transform="translate(128 128)">
+    <text
+      x="0"
+      y="16"
+      text-anchor="middle"
+      transform="rotate(-12)"
+      fill="#050505"
+      font-family="'Space Grotesk', 'Plus Jakarta Sans', Arial, sans-serif"
+      font-size="128"
+      font-weight="800"
+    >N</text>
+  </g>
+</svg>
