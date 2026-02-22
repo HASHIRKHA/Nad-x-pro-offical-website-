@@ -1,0 +1,7 @@
+{
+  "name": "Nad X Pro 360°",
+  "description": "A premium, cutting-edge 360° digital partner platform specializing in AI, automation, and comprehensive end-to-end business solutions with cinematic visuals and high-performance interactivity.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
