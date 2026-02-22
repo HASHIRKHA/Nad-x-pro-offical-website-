@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
-import BrandLogo from './BrandLogo';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,8 +34,13 @@ const Navbar: React.FC = () => {
       }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <Link to="/" aria-label="NAD X PRO home">
-          <BrandLogo iconClassName="w-10 h-10" textClassName="text-2xl" />
+        <Link to="/" className="flex items-center space-x-2">
+          <div className="w-10 h-10 bg-gradient-to-br from-cyan-400 to-purple-600 rounded-lg flex items-center justify-center transform rotate-12 group-hover:rotate-0 transition-transform">
+            <span className="text-black font-extrabold text-lg -rotate-12">N</span>
+          </div>
+          <span className="text-2xl font-bold tracking-tighter text-white">
+            NAD X <span className="text-cyan-400">PRO</span>
+          </span>
         </Link>
 
         {/* Desktop Links */}
