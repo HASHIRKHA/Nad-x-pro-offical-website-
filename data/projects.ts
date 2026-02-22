@@ -42,13 +42,13 @@ export const portfolioProjects: Project[] = [
   },
   {
     id: 4,
-    title: 'Growth Surge 2.0',
+    title: 'Performance Funnel System — Marketing Portfolio 01',
     category: 'Marketing',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1400',
-    desc: 'Global performance marketing campaign with 300% ROI.',
+    image: 'portfolio/marketing/marketing-01.jpg',
+    desc: 'Conversion-focused campaign structure built to turn paid traffic into qualified sales conversations.',
     accent: 'yellow',
-    challenge: 'High CAC and inconsistent campaign performance across regions.',
-    outcome: 'Scaled qualified leads by 2.8x while reducing blended CAC by 37%.'
+    challenge: 'Traffic quality was unstable and offers were not positioned clearly across the funnel journey.',
+    outcome: 'We redesigned message flow, creative hierarchy, and CTA strategy to improve lead quality and increase conversion consistency.'
   },
   {
     id: 5,
@@ -79,5 +79,15 @@ export const portfolioProjects: Project[] = [
     accent: 'purple',
     challenge: 'The second brand had good offers but weak creative consistency, so ads and content were not communicating value fast enough.',
     outcome: 'We redesigned the visual language around clarity + authority, producing a cleaner message hierarchy and creatives optimized for engagement and lead intent.'
+  },
+  {
+    id: 8,
+    title: 'Authority Ad Creative Pack — Marketing Portfolio 02',
+    category: 'Marketing',
+    image: 'portfolio/marketing/marketing-02.jpg',
+    desc: 'High-impact ad creative and messaging set designed for stronger trust and faster action.',
+    accent: 'orange',
+    challenge: 'The brand had decent reach but weak ad resonance, causing attention without meaningful buyer intent.',
+    outcome: 'We produced an authority-led creative pack with clearer value hooks and stronger storytelling, improving engagement depth and campaign momentum.'
   }
 ];
