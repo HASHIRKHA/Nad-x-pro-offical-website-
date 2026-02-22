@@ -24,7 +24,7 @@ export const portfolioProjects: Project[] = [
     id: 2,
     title: 'Vanguard Fintech',
     category: 'Software Dev',
-    image: 'https://images.unsplash.com/photo-1642052502506-ee8a11f8c2f4?auto=format&fit=crop&q=80&w=1400',
+    image: 'https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&q=80&w=1400',
     desc: 'High-performance banking infrastructure built for scale.',
     accent: 'purple',
     challenge: 'The platform needed low-latency transactions with strict reliability requirements.',
