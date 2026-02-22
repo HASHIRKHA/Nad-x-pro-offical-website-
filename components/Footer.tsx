@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Github, Twitter, Linkedin, Instagram, ArrowUpRight } from 'lucide-react';
+import BrandLogo from './BrandLogo';
 
 const Footer: React.FC = () => {
   return (
@@ -9,11 +10,8 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
           <div className="col-span-1 md:col-span-1">
-            <Link to="/" className="flex items-center space-x-2 mb-6">
-              <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-purple-600 rounded flex items-center justify-center">
-                <span className="text-black font-bold text-sm">N</span>
-              </div>
-              <span className="text-xl font-bold text-white tracking-tighter">NAD X PRO</span>
+            <Link to="/" className="mb-6 inline-flex" aria-label="NAD X PRO home">
+              <BrandLogo iconClassName="w-8 h-8" textClassName="text-xl" />
             </Link>
             <p className="text-gray-500 leading-relaxed mb-8">
               Your 360° global partner for AI-driven automation, software excellence, and creative growth.
