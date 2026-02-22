@@ -89,5 +89,15 @@ export const portfolioProjects: Project[] = [
     accent: 'orange',
     challenge: 'The brand had decent reach but weak ad resonance, causing attention without meaningful buyer intent.',
     outcome: 'We produced an authority-led creative pack with clearer value hooks and stronger storytelling, improving engagement depth and campaign momentum.'
+  },
+  {
+    id: 9,
+    title: 'Intelligent Ops Assistant — AI Portfolio 03',
+    category: 'AI & Automation',
+    image: 'portfolio/ai/ai-03.jpg',
+    desc: 'HD real-world AI automation deployment built to remove repetitive tasks and speed up operations.',
+    accent: 'cyan',
+    challenge: 'Teams were losing productive hours on manual handoffs, repetitive follow-ups, and delayed decision loops.',
+    outcome: 'We implemented an AI-first automation layer that streamlined task routing, reduced turnaround time, and improved execution consistency across the workflow.'
   }
 ];
