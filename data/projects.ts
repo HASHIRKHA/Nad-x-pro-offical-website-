@@ -32,13 +32,13 @@ export const portfolioProjects: Project[] = [
   },
   {
     id: 3,
-    title: 'Aether Identity',
+    title: 'Brand Identity Suite — Portfolio Brand 01',
     category: 'Creative Design',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=1400',
-    desc: 'Visual storytelling for the next generation of spatial computing.',
+    image: 'portfolio/designing/design-01.jpg',
+    desc: 'Complete visual identity crafted for high recall, premium positioning, and social-first impact.',
     accent: 'pink',
-    challenge: 'Brand lacked a coherent visual language across product and marketing surfaces.',
-    outcome: 'Unified identity system increased brand recall and improved conversion landing performance.'
+    challenge: 'The brand looked inconsistent across posts, creatives, and sales touchpoints, which weakened trust and hurt conversion quality.',
+    outcome: 'We built a unified design system (colors, typography, templates, and campaign style), creating a stronger premium presence and a clearer buying journey.'
   },
   {
     id: 4,
@@ -69,5 +69,15 @@ export const portfolioProjects: Project[] = [
     accent: 'orange',
     challenge: 'Monolithic storefront architecture limited speed, flexibility, and growth.',
     outcome: 'Launched modular commerce stack with faster releases and stronger checkout conversion.'
+  },
+  {
+    id: 7,
+    title: 'Campaign Visual System — Portfolio Brand 02',
+    category: 'Creative Design',
+    image: 'portfolio/designing/design-04.jpg',
+    desc: 'Performance-focused creative direction designed to convert attention into qualified leads.',
+    accent: 'purple',
+    challenge: 'The second brand had good offers but weak creative consistency, so ads and content were not communicating value fast enough.',
+    outcome: 'We redesigned the visual language around clarity + authority, producing a cleaner message hierarchy and creatives optimized for engagement and lead intent.'
   }
 ];
