@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Github, Twitter, Linkedin, Instagram, ArrowUpRight } from 'lucide-react';
+import { Facebook, Twitter, Linkedin, Instagram, ArrowUpRight } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -19,14 +19,41 @@ const Footer: React.FC = () => {
               Your 360° global partner for AI-driven automation, software excellence, and creative growth.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-cyan-400 hover:text-black transition-all">
+              <a
+                href="https://www.instagram.com/p/DLPGDG0McbU/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-cyan-400 hover:text-black transition-all duration-300 hover:-translate-y-1 hover:scale-110"
+              >
+                <Instagram className="w-4 h-4" />
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61577153053928"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-cyan-400 hover:text-black transition-all duration-300 hover:-translate-y-1 hover:scale-110"
+              >
+                <Facebook className="w-4 h-4" />
+              </a>
+              <a
+                href="https://x.com/NadXPro143"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X"
+                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-cyan-400 hover:text-black transition-all duration-300 hover:-translate-y-1 hover:scale-110"
+              >
                 <Twitter className="w-4 h-4" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-cyan-400 hover:text-black transition-all">
+              <a
+                href="https://www.linkedin.com/in/nad-x-pro-b1599a392?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-cyan-400 hover:text-black transition-all duration-300 hover:-translate-y-1 hover:scale-110"
+              >
                 <Linkedin className="w-4 h-4" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-cyan-400 hover:text-black transition-all">
-                <Github className="w-4 h-4" />
               </a>
             </div>
           </div>
